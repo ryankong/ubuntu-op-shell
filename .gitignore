@@ -1,11 +1,49 @@
-# Maven #
-target/
+# -- Eclipse
+.mymetadata
+**/bin/
+#**/.classpath
+#**/.project
+**/.settings/
+**/.metadata/
+**/.myeclipse/
+**/logs/
 
-# IDEA #
-.idea/
-*.iml
+*.log
+*.log.lck
+**/*.log
+**/*.log.*
 
-# Eclipse #
-.settings/
-.classpath
-.project
+**/*.FDC
+
+# -- Intellij
+**/.idea/
+**/*.iml
+**/*.iws
+**/out/
+
+# -- Mac
+**/.DS_Store
+
+# -- Maven
+**/log/
+**/target/
+**/*.versionsBackup
+
+# -- bower
+**/bower_components/
+
+# -- node
+**/node_modules/
+
+# -- tar
+**/*.tar.gz
+**/*.rar
+
+# -- npm
+**/npm-debug.log
+
+# -- upload directory
+**/upload/
+/.settings
+#/.project
+/target/
